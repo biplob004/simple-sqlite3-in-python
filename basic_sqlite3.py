@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('examveda.db')
+conn = sqlite3.connect('database_name.db')
 
 c = conn.cursor()
 
