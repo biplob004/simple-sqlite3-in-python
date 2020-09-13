@@ -11,8 +11,11 @@ conn.commit()
 # inserting data into the table 
 c.execute("Insert into table_name values (?,?)", ("What is your name? ", "My name is biplob das."))
 conn.commit()
-    
 
+# # delete all from given table 
+# c.execute("DELETE FROM table_name")
+# conn.commit()
+    
 # display table data
 value = c.execute("Select * from table_name").fetchall()
 for v in value:
